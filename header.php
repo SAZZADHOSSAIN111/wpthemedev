@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html  >
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>1s Theme</title>
-    <?php wp_head(); ?> 
+    <title>First Themes</title>
+     <?php wp_head(); ?> 
 </head>
 <body>
     <div>
