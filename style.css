@@ -17,14 +17,35 @@ Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, feature
 
 .top-bar{
     background-color: red;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    /* text-align: center; */
+    display: grid;
+    grid-template-columns: auto auto;
+    /* justify-content: center; */
+    /* align-items: space-between; */
+    /* column-gap: space-between; */
     font-size: 30px;
     font-family: "BBH Bogle";
     column-gap: 30px;
     color: white;
     padding: 20px;
+    padding: 0 50px ;
+}
 
+.searchbox{
+ text-align: right;
+}
+
+.menu ul {
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+    font-family: "BBH Bogle";
+    background-color: gray;
+    padding: 20px 0;
+    font-size: 20px;
+    color: white;
 }

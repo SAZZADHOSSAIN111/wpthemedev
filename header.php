@@ -15,8 +15,8 @@
            </section>
 
            <section class="menu">
-               <ul>
-                   <li>Home</li>
+               <ul class="ul" >
+                   <li >Home</li>
                    <li>about</li>
                    <li>Contact</li>
                </ul>
