@@ -9,17 +9,16 @@
 <body>
     <div>
         <header> 
-           <section class="top-bar">
+           <div class="top-bar">
                <div class="site-logo"> Logo</div>
                <div class="searchbox"> Search Box</div>
-           </section>
-
-           <section class="menu">
+            </div>
+           <div class="menu">
                <ul class="ul" >
                    <li >Home</li>
                    <li>about</li>
                    <li>Contact</li>
                </ul>
-           </section>
+            </div>
         </header>
     </div>

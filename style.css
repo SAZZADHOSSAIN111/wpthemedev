@@ -14,20 +14,20 @@ Text Domain: twentytwentythree
 Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready, wide-blocks, block-styles, style-variations, accessibility-ready, blog, portfolio, news
 */
 
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+
+}
 
 .top-bar{
     background-color: red;
-    /* text-align: center; */
     display: grid;
     grid-template-columns: auto auto;
-    /* justify-content: center; */
-    /* align-items: space-between; */
-    /* column-gap: space-between; */
     font-size: 30px;
     font-family: "BBH Bogle";
-    column-gap: 30px;
     color: white;
-    padding: 20px;
     padding: 0 50px ;
 }
 
@@ -35,10 +35,8 @@ Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, feature
  text-align: right;
 }
 
-.menu ul {
+.ul {
     list-style: none;
-    text-decoration: none;
-    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,5 +45,30 @@ Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, feature
     background-color: gray;
     padding: 20px 0;
     font-size: 20px;
+    color: white;
+}
+
+.home{
+    padding: 10px 5%;
+    background-color: skyblue;
+    font-size: 20px;
+}
+.About-us{
+    padding: 10px 5%;
+    background-color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.Contact-us{
+    padding: 10px 5%;
+    background-color: skyblue;
+    font-size: 20px;
+}
+
+.footer{
+    padding: 10px 5%;
+    background-color: gray;
+    font-size: 20px;
+    font-family: "BBh Bogle";
     color: white;
 }
