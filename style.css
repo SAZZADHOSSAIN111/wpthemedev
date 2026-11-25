@@ -35,10 +35,10 @@ Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, feature
  text-align: right;
 }
 
-.ul {
+.menu ul {
     list-style: none;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     column-gap: 20px;
     font-family: "BBH Bogle";
@@ -46,6 +46,19 @@ Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, feature
     padding: 20px 0;
     font-size: 20px;
     color: white;
+    text-decoration: none;
+    position: relative;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu ul li {
+    display: inline-block;
+    line-height: 20px;
+    position: relative;
 }
 
 .home{

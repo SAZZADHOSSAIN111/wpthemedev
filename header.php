@@ -14,11 +14,7 @@
                <div class="searchbox"> Search Box</div>
             </div>
            <div class="menu">
-               <ul class="ul" >
-                   <li >Home</li>
-                   <li>about</li>
-                   <li>Contact</li>
-               </ul>
+                <?php wp_nav_menu(array('theme_location' => 'firstTheme_main_menu',)); ?>
             </div>
         </header>
     </div>
